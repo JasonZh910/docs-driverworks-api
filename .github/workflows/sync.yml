@@ -1,6 +1,5 @@
 name: Upstream Sync
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'  # 每天凌晨执行
 jobs:
