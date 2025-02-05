@@ -49,4 +49,4 @@ jobs:
 
     - name: Check for changes and push
       run: |
-        git diff --quiet upstream/main master && git push origin master || echo "No changes to sync"
+        git diff --quiet upstream/master master && git push origin master || echo "No changes to sync"
